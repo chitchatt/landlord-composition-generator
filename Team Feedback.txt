@@ -1,8 +1,0 @@
-* Why is the back button there?
-* No kind of catch all option
-* Issue #1 is something I had already entered
-* "When did you notice the issue?" looks like label
-* "What does the plus button do at the top?"
-* "Issue #1" - is that an automatically generated title?
-* Lots of flow issues and clicking on buttons that didn't work
-* Does it just send from the app?
