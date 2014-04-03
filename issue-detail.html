@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Landlord mediator prototype</title>
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link href="lib/ratchet/css/ratchet.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <script src="lib/ratchet/js/ratchet.min.js"></script>
+  </head>
+  <body>
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+      <a class="icon icon-left-nav pull-left" href="repairs.html" data-transition="slide-out"></a>
+      <a class="icon icon-plus pull-right"></a>
+      <h1 class="title">Issue Detail</h1>
+    </header>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+      <p>Let's document the issues</p>
+      <form>
+        <input type="text" placeholder="When did you first notice the issue?">
+        <textarea rows="5">Describe the issue</textarea>
+        <button class="btn btn-positive btn-block">Save issue</button>
+      </form>
+    </div>
+  </body>
+</html>
